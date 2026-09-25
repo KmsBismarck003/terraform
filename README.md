@@ -1,11 +1,22 @@
 # Terraform Labs & Projects
 
-Repositorio de prácticas y laboratorios de Terraform para gestión de infraestructura como código (IaC).
+Repositorio dedicado al desarrollo de prácticas y laboratorios de **Terraform**, enfocados en la implementación y gestión de infraestructura como código (**Infrastructure as Code, IaC**).
 
-## 📁 Estructura del Repositorio
+## Estructura del repositorio
 
-- **[`lab1/`](./lab1)**: Práctica inicial con Terraform, configuración de providers (`hashicorp/random`) y creación del recurso `random_string`.
+```text
+lab1/
+└── Práctica inicial de Terraform
+    ├── Configuración del provider hashicorp/random
+    └── Creación y gestión del recurso random_string
+```
 
-## 🚀 Requisitos Generales
+## Requisitos generales
 
-- [Terraform CLI](https://www.terraform.io/) >= 1.0.0
+Para ejecutar las prácticas de este repositorio se requiere:
+
+* **Terraform CLI** versión **1.0.0 o superior**.
+
+## Objetivo
+
+El repositorio tiene como propósito documentar y desarrollar ejercicios prácticos para adquirir conocimientos sobre Terraform, su configuración, providers, recursos y principios fundamentales de infraestructura como código.
